@@ -1,0 +1,22 @@
+[
+    {
+        "title": "REYNA",
+        "summary":{
+            "matches": 57,
+            "victories": 33,
+            "defeats": 24,
+            "headshots": 730,
+            "winrate": 57.9,
+            "slaughter": 322,
+            "deaths": 216,
+            "assists": 340,
+            "kills": 126,
+            "kda": 57.9
+        },
+        "skills":{
+            "history": "Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate efetuado.Sua capacidade só é limitada por sua própria perícia.tornando-a bastante dependente de desempenho.",
+            "quality": "DUELISTA",
+            "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates."   
+        }
+    }
+]
