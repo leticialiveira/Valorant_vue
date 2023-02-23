@@ -11,7 +11,7 @@ defineProps({
     mortes: Number,
     derrotas: Number,
     tiros: Number,
-    winrate: Number,
+    winrate: Number
 })
 
 </script>

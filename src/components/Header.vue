@@ -1,19 +1,19 @@
 <template>
     <header>
-        <div class="fundo-menu">
+        <div class="bottom-menu">
           <img src="../assets/icons/fundo menu.png" alt="" />
         </div>
-        <div class="inicio-menu">
+        <div class="start-menu">
         <img src="../assets/icons/inicio menu.png" alt="" />
         <p>INÍCIO</p>
       </div>
-      <div class="icons-e">
+      <div class="icons-left">
         <a href="/resume.html">
           <img src="../assets/icons/menu 1.png" alt="" />
         </a>
         <img src="../assets/icons/campeos branco.png" alt="" />
       </div>
-      <div class="icons-d">
+      <div class="icons-right">
         <a href="/arsenal.html">
           <img src="../assets/icons/menu 3.png" alt="" />
         </a>
@@ -32,22 +32,22 @@ header {
   justify-content: center;
 }
 
-header .fundo-menu {
+header .bottom-menu {
   position: relative;
   bottom: 84%;
 }
 
-header .inicio-menu {
+header .start-menu {
   position: absolute;
   top: 0%;
   left: 45%;
 }
 
-header .inicio-menu a { 
+header .start-menu a { 
   color: var(--color-body);
 }
 
-header .inicio-menu p {
+header .start-menu p {
   font-weight: 600;
   font-size: 28px;
   line-height: 33px;
@@ -56,22 +56,22 @@ header .inicio-menu p {
   right: 30%;
 }
 
-header .icons-e {
+header .icons-left {
   position: absolute;
   left: 39%;
   top: 0%;
 }
 
-.icons-e img {
+.icons-left img {
   margin-right: 6px;
 }
 
-header .icons-d {
+header .icons-right {
   position: absolute;
   right: 38%;
   top: 0%;
 }
-.icons-d img {
+.icons-right img {
   margin-right: 6px;
 }
 </style>

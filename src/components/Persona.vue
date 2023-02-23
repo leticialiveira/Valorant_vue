@@ -5,14 +5,14 @@
     
 </script>
 <template>
-  <section class="centro">
-    <div class="centro-esquerda">
-      <div class="centro-esquerda-titulo">
+  <section class="center">
+    <div class="center-left">
+      <div class="center-left-title">
         <p>Estatísticas com o agente</p>
         <h1>RESUMO</h1>
       </div>
-      <div class="centro-esquerda-informacoes">
-        <div class="centro-esquerda-inf-e">
+      <div class="center-left-information">
+        <div class="center-left-inf-left">
           <ul>
             <li>
               <p>Partidas jogadas</p>
@@ -36,7 +36,7 @@
             </li>
           </ul>
         </div>
-        <div class="centro-esquerda-inf-d">
+        <div class="center-left-inf-right">
           <ul>
             <li>
               <p>Abates</p>
@@ -62,27 +62,27 @@
         </div>
       </div>
     </div>
-    <div class="centro-sombra-personagem">
+    <div class="center-shadow-persona">
       <h1>{{ title }}</h1>
       <img
         src="../assets/icons/fundo  reyna.png"
         alt="Imagem da personagem Reyna"
       />
     </div>
-    <div class="img-personagem">
-      <img src="../assets/img/personagem 2.png" alt="" />
+    <div class="image-persona">
+      <img src={{ image }} alt="image-persona" />
     </div>
-    <div class="centro-direita">
-      <div class="centro-direita-titulo">
+    <div class="center-right">
+      <div class="center-right-title">
         <p>{{ quality }}</p>
         <h1>HABILIDADES</h1>
       </div>
-      <div class="centro-direita-habilidades">
-        <img
-          src="../assets/img/habilidade 1.png"
-          alt="Imagem habilidade 1 da personagem Reyna"
-        />
-        <img
+      <div class="center-right-skills">
+        <img {{skill_1}}/>
+        <img {{skill_2}}/>
+        <img {{skill_3}}/>
+        <img {{skill_4}}/>
+        <!-- <img
           src="../assets/img/habilidade 2.png"
           alt="Imagem habilidade 2 da personagem Reyna"
         />
@@ -97,12 +97,12 @@
         <img
           src="../assets/img/habilidade 5.png"
           alt="Imagem habilidade 5 da personagem Reyna"
-        />
+        /> -->
       </div>
-      <div class="centro-direita-textos">
+      <div class="center-right-texts">
         <span> {{ history }}</span
         >
-        <div class="explicacao-duelista">
+        <div class="explication">
           <h3>{{ quality }}</h3>
           <p> {{ description }}</p>
         </div>
@@ -111,7 +111,7 @@
   </section>
 </template>
 <style scoped>
-.centro {
+.center {
   width: 100%;
   height: 100%;
   display: flex;
@@ -120,7 +120,7 @@
   align-items: center;
 }
 
-.centro-esquerda {
+.center-left {
   width: 33.3%;
   height: auto;
   display: flex;
@@ -130,27 +130,27 @@
   padding-right: 20px;
 }
 
-.centro-esquerda .centro-esquerda-titulo {
+.center-left .center-left-title {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   padding-right: 30px;
 }
 
-.centro-esquerda .centro-esquerda-titulo p {
+.center-left .center-left-title p {
   font-weight: 300;
   font-size: 13px;
   line-height: 15px;
 }
 
-.centro-esquerda .centro-esquerda-titulo h1 {
+.center-left .center-left-title h1 {
   font-weight: 600;
   font-size: 36px;
   line-height: 42px;
   color: var(--resumo-titulo);
 }
 
-.centro-esquerda-informacoes {
+.center-left .center-left-information {
   display: flex;
   flex-direction: row;
   /* border: solid 1px green; */
@@ -158,7 +158,7 @@
   padding-top: 20px;
 }
 
-.centro-esquerda-inf-e ul {
+.center-left .center-left-inf-left ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -168,24 +168,24 @@
   width: 8vw;
 }
 
-.centro-esquerda-inf-e li p {
+.center-left .center-left-inf-left li p {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
 }
 
-.centro-esquerda-inf-e li span:hover {
+.center-left .center-left-inf-left li span:hover {
   color: var(--color-plane);
 }
 
-.centro-esquerda-inf-e li span {
+.center-left .center-left-inf-left li span {
   font-weight: 300;
   font-size: 13px;
   line-height: 15px;
   color: var(--resumo-titulo);
 }
 
-.centro-esquerda-inf-d ul {
+.center-left .center-left-inf-right ul {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -193,46 +193,43 @@
   gap: 20px;
   text-align: right;
   list-style-type: none;
-  /* border: solid 1px red; */
   width: 8vw;
 }
 
-.centro-esquerda-inf-d li p {
+.center-left .center-left-inf-right li p {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
 }
 
-.centro-esquerda-inf-d li span {
+.center-left .center-left-inf-right li span {
   font-weight: 300;
   font-size: 13px;
   line-height: 15px;
   color: var(--resumo-titulo);
 }
 
-.centro-esquerda-inf-d li span:hover {
+.center-left .center-left-inf-right li span:hover {
   color: var(--color-plane);
 }
 
-.centro-sombra-personagem {
+.center .center-shadow-persona {
   width: 33.3%;
   height: 70vh;
   display: flex;
   flex-direction: column;
-  /* border: solid 1px var(--color-body); */
   justify-content: center;
   align-items: center;
-  /* padding-bottom: 100px; */
 }
 
-.centro-sombra-personagem h1 {
+.center .center-shadow-persona h1 {
   font-weight: 700;
   font-size: 96px;
   line-height: 112px;
   padding-top: 80px;
 }
 
-.centro-sombra-personagem img {
+.center .center-shadow-persona img {
   display: flex;
   position: relative;
   bottom: 20%;
@@ -240,13 +237,13 @@
   border-bottom: solid 1px var(--color-body);
 }
 
-.img-personagem img {
+.center .image-persona img {
   position: absolute;
   right: 42%;
   top: 28%;
 }
 
-.centro .centro-direita {
+.center .center-right {
   width: 33.3%;
   height: 3auto;
   display: flex;
@@ -257,44 +254,44 @@
   padding-left: 20px;
 }
 
-.centro-direita .centro-direita-titulo {
+.center-right .center-right-title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1px;
 }
 
-.centro-direita .centro-direita-titulo p {
+.center-right .center-right-title p {
   font-weight: 300;
   font-size: 13px;
   line-height: 15px;
 }
 
-.centro-direita .centro-direita-titulo h1 {
+.center-right .center-right-title h1 {
   font-weight: 600;
   font-size: 36px;
   line-height: 42px;
   color: var(--resumo-titulo);
 }
 
-.centro-direita .centro-direita-habilidades {
+.center-right .center-right-skills {
   display: flex;
   align-items: flex-start;
   gap: 1vw;
   position: relative;
 }
 
-.centro-direita-habilidades img:hover {
+.center-right .center-right-skills img:hover {
   transform: scale(1.1);
 }
 
-.centro-direita .centro-direita-textos {
+.center-right .center-right-texts {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.centro-direita-textos span {
+.center-right .center-right-texts span {
   color: #f9aff6;
   font-weight: 300;
   font-size: 13px;
@@ -303,20 +300,20 @@
   text-align: justify;
 }
 
-.centro-direita .centro-direita-textos h3 {
+.center-right .center-right-texts h3 {
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
 }
 
-.centro-direita .centro-direita-textos p {
+.center-right .center-right-texts p {
   font-weight: 300;
   font-size: 13px;
   line-height: 15px;
   width: 14vw;
 }
 
-.centro-direita-textos .explicacao-duelista {
+.center-right .center-right-texts .explication {
   gap: 10px;
 }
 </style>

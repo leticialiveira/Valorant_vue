@@ -1,6 +1,8 @@
+
 [
-    {
+        {
         "title": "REYNA",
+        "image": "./assets/img/reyna_principal.png",
         "summary":{
             "matches": 57,
             "victories": 33,
@@ -14,7 +16,461 @@
             "kda": 57.9
         },
         "skills":{
+            "skill_1": "./assets/icons/reyna_skill_1.png",
+            "skill_2": "./assets/icons/reyna_skill_2.png",
+            "skill_3": "./assets/icons/reyna_skill_3.png",
+            "skill_4": "./assets/icons/reyna_skill_4.png",
             "history": "Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate efetuado.Sua capacidade só é limitada por sua própria perícia.tornando-a bastante dependente de desempenho.",
+            "quality": "DUELISTA",
+            "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates."   
+        }
+    },
+    {
+        "title": "ASTRA",
+        "image": "./assets/img/astra_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/astra_skill_1.png",
+            "skill_2": "./assets/icons/astra_skill_2.png",
+            "skill_3": "./assets/icons/astra_skill_3.png",
+            "skill_4": "./assets/icons/astra_skill_4.png",
+            "history": "Astra, a Agente ganense, utiliza energias cósmicas para moldar o campo de batalha a seu bel-prazer. Com total domínio da sua forma astral e um talento estratégico nato, ela está sempre anos-luz à frente dos inimigos.",
+            "quality": "CONTROLADORA",
+            "description": "Controladores abrem alas para uma entrada segura na região inimiga em rodadas de ataque."   
+        }
+    },
+    {
+        "title": "BREACH",
+        "image": "./assets/img/breach_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/breach_skill_1.png",
+            "skill_2": "./assets/icons/breach_skill_2.png",
+            "skill_3": "./assets/icons/breach_skill_3.png",
+            "skill_4": "./assets/icons/breach_skill_4.png",
+            "history": "Breach, o homem-biônico sueco, dispara poderosos jatos cinéticos para forçar a abertura de um caminho pelo território inimigo. O dano e a interrupção que ele causa garantem que nenhuma luta seja justa.",
+            "quality": "INICIADOR",
+            "description": " Iniciadores são especialistas em desafiar a defesa dos adversários, criando oportunidades para os aliados se posicionarem melhor na área atacada. "
+        }
+    },
+    {
+        "title": "BRIMSTONE",
+        "image": "./assets/img/brimstone_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/brimstone_skill_1.png",
+            "skill_2": "./assets/icons/brimstone_skill_2.png",
+            "skill_3": "./assets/icons/brimstone_skill_3.png",
+            "skill_4": "./assets/icons/brimstone_skill_4.png",
+            "history": "Vindo diretamente dos EUA, o arsenal orbital de Brimstone garante que o esquadrão dele esteja sempre em vantagem. Sua capacidade de oferecer utilidade com precisão a distância faz dele um comandante inigualável na linha de frente.",
+            "quality": "CONTROLADOR",
+            "description": "Controladores abrem alas para uma entrada segura na região inimiga em rodadas de ataque."   
+        }
+    },
+    {
+        "title": "CHAMBER",
+        "image": "./assets/img/chamber_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/chamber_skill_1.png",
+            "skill_2": "./assets/icons/chamber_skill_2.png",
+            "skill_3": "./assets/icons/chamber_skill_3.png",
+            "skill_4": "./assets/icons/chamber_skill_4.png",
+            "history": "Bem vestido e armado até os dentes, o criador de armas francês Chamber coloca os inimigos para correr com uma precisão mortal. Use e abuse do arsenal personalizado dele para segurar posições e abater inimigos de longe, criando a defesa perfeita para qualquer plano.",
+            "quality": "SENTINELA",
+            "description": " Sentinelas são capazes de proteger e monitorar grandes áreas dos mapas a fim de garantir segurança para a conclusão de objetivos."   
+        }
+    },
+    {
+        "title": "CYPHER",
+        "image": "./assets/img/cypher_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/cypher_skill_1.png",
+            "skill_2": "./assets/icons/cypher_skill_2.png",
+            "skill_3": "./assets/icons/cypher_skill_3.png",
+            "skill_4": "./assets/icons/cypher_skill_4.png",
+            "history": "Cypher, um vendedor de informações do Marrocos, é uma verdadeira rede de vigilância de um homem só que fica de olho em cada movimento dos inimigos. Nenhum segredo está a salvo. Nenhuma manobra passa despercebida. Cypher está sempre vigiando.",
+            "quality": "SENTINELA",
+            "description": " Sentinelas são capazes de proteger e monitorar grandes áreas dos mapas a fim de garantir segurança para a conclusão de objetivos."   
+        }
+    },
+    {
+        "title": "FADE",
+        "image": "./assets/img/fade_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/fade_skill_1.png",
+            "skill_2": "./assets/icons/fade_skill_2.png",
+            "skill_3": "./assets/icons/fade_skill_3.png",
+            "skill_4": "./assets/icons/fade_skill_4.png",
+            "history": "Fade, uma caçadora de recompensas turca, usa o poder dos pesadelos para capturar os segredos dos inimigos. Personificando o próprio terror, ela persegue os alvos e revela seus medos mais profundos para, depois, destruí-los na escuridão.",
+            "quality": "INICIADORA",
+            "description": "Iniciadores são especialistas em desafiar a defesa dos adversários, criando oportunidades para os aliados se posicionarem melhor na área atacada. "   
+        }
+    },
+    {
+        "title": "JETT",
+        "image": "./assets/img/jett_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/jett_skill_1.png",
+            "skill_2": "./assets/icons/jett_skill_2.png",
+            "skill_3": "./assets/icons/jett_skill_3.png",
+            "skill_4": "./assets/icons/jett_skill_4.png",
+            "history": "Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.",
+            "quality": "DUELISTA",
+            "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates."   
+        }
+    },
+    {
+        "title": "KAY/O",
+        "image": "./assets/img/kayo_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/kayo_skill_1.png",
+            "skill_2": "./assets/icons/kayo_skill_2.png",
+            "skill_3": "./assets/icons/kayo_skill_3.png",
+            "skill_4": "./assets/icons/kayo_skill_4.png",
+            "history": "KAY/O é uma máquina de guerra construída com um único propósito: neutralizar Radiantes. Ele é capaz de suprimir habilidades inimigas, comprometendo a capacidade de contra-ataque dos adversários e dando a si próprio e a seus aliados uma vantagem essencial em combate.",
+            "quality": "INICIADOR",
+            "description": "Iniciadores são especialistas em desafiar a defesa dos adversários, criando oportunidades para os aliados se posicionarem melhor na área atacada."    
+        }
+    },
+    {
+        "title": "KILLJOY",
+        "image": "./assets/img/killjoy_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/killjoy_skill_1.png",
+            "skill_2": "./assets/icons/killjoy_skill_2.png",
+            "skill_3": "./assets/icons/killjoy_skill_3.png",
+            "skill_4": "./assets/icons/killjoy_skill_4.png",
+            "history": "Killjoy, uma alemã genial, defende o campo de batalha facilmente usando seu arsenal de invenções. Se o dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs dão conta do recado.",
+            "quality": "SENTINELA",
+            "description": " Sentinelas são capazes de proteger e monitorar grandes áreas dos mapas a fim de garantir segurança para a conclusão de objetivos."   
+        }
+    },
+    {
+        "title": "NEON",
+        "image": "./assets/img/neon_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/neon_skill_1.png",
+            "skill_2": "./assets/icons/neon_skill_2.png",
+            "skill_3": "./assets/icons/neon_skill_3.png",
+            "skill_4": "./assets/icons/neon_skill_4.png",
+            "history": "Neon, nossa Agente filipina, avança em velocidades incríveis, descarregando surtos de radiância bioelétrica tão rapidamente quanto seu corpo consegue gerá-los. Ela corre à frente para pegar os inimigos de surpresa, abatendo-os mais rápido do que um raio.",
+            "quality": "DUELISTA",
+            "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates."   
+        }
+    },
+    {
+        "title": "OMEN",
+        "image": "./assets/img/omen_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/omen_skill_1.png",
+           "skill_2": "./assets/icons/omen_skill_2.png",
+            "skill_3": "./assets/icons/omen_skill_3.png",
+            "skill_4": "./assets/icons/omen_skill_4.png",
+            "history": "Omen, uma lembrança fantasmagórica, caça nas sombras. Ele cega os inimigos, teleporta-se pelo campo e deixa a paranoia assumir o controle enquanto o adversário tenta descobrir de onde virá seu próximo ataque.",
+            "quality": "CONTROLADOR",
+            "description": "Controladores abrem alas para uma entrada segura na região inimiga em rodadas de ataque."   
+        }
+    },
+    {
+        "title": "PHOENIX",
+        "image": "./assets/img/phoenix_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/phoenix_skill_1.png",
+            "skill_2": "./assets/icons/phoenix_skill_2.png",
+            "skill_3": "./assets/icons/phoenix_skill_3.png",
+            "skill_4": "./assets/icons/phoenix_skill_4.png",
+            "history": "Chegando com tudo diretamente do Reino Unido, o poder estelar de Phoenix reluz em seu estilo de luta, incendiando o campo de batalha com luz e estilo. Tendo ajuda ou não, ele entra na luta como e quando achar que deve.",
+            "quality": "DUELISTA",
+            "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates."   
+        }
+    },
+    {
+        "title": "RAZE",
+        "image": "./assets/img/raze_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/raze_skill_1.png",
+            "skill_2": "./assets/icons/raze_skill_2.png",
+            "skill_3": "./assets/icons/raze_skill_3.png",
+            "skill_4": "./assets/icons/raze_skill_4.png",
+            "history": "Raze chega do Brasil em uma explosão de carisma e armas letais. Com seu estilo de jogo 'porradeiro', ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com uma bela dose de BUUUM!",
+            "quality": "DUELISTA",
+            "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates."   
+        }
+    },
+    {
+        "title": "SAGE",
+        "image": "./assets/img/sage_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/sage_skill_1.png",
+            "skill_2": "./assets/icons/sage_skill_2.png",
+            "skill_3": "./assets/icons/sage_skill_3.png",
+            "skill_4": "./assets/icons/sage_skill_4.png",
+            "history": "Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.",
+            "quality": "SENTINELA",
+            "description": " Sentinelas são capazes de proteger e monitorar grandes áreas dos mapas a fim de garantir segurança para a conclusão de objetivos."   
+        }
+    },
+    {
+        "title": "SKYE",
+        "image": "./assets/img/skye_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/skye_skill_1.png",
+            "skill_2": "./assets/icons/skye_skill_2.png",
+            "skill_3": "./assets/icons/skye_skill_3.png",
+            "skill_4": "./assets/icons/skye_skill_4.png",
+            "history": "Mandando um salve direto da Austrália, Skye e sua equipe de feras desbravam territórios hostis. Com seus poderes de cura e suas criações que partem pra cima dos inimigos, qualquer equipe ficará mais forte e mais segura tendo Skye como aliada.",
+            "quality": "INICIADORA",
+            "description": "Iniciadores são especialistas em desafiar a defesa dos adversários, criando oportunidades para os aliados se posicionarem melhor na área atacada. "   
+        }
+    },
+    {
+        "title": "SOVA",
+        "image": "./assets/img/sova_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/sova_skill_1.png",
+            "skill_2": "./assets/icons/sova_skill_2.png",
+            "skill_3": "./assets/icons/sova_skill_3.png",
+            "skill_4": "./assets/icons/sova_skill_4.png",
+            "history": "Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis. Seu arco personalizado e suas habilidades inigualáveis de reconhecimento garantem que nenhuma presa escape.",
+            "quality": "INICIADOR",
+            "description": "Iniciadores são especialistas em desafiar a defesa dos adversários, criando oportunidades para os aliados se posicionarem melhor na área atacada. "   
+        }
+    },
+    {
+        "title": "VIPER",
+        "image": "./assets/img/viper_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/viper_skill_1.png",
+            "skill_2": "./assets/icons/viper_skill_2.png",
+            "skill_3": "./assets/icons/viper_skill_3.png",
+            "skill_4": "./assets/icons/viper_skill_4.png",
+            "history": "Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.",
+            "quality": "CONTROLADORA",
+            "description": "Controladores abrem alas para uma entrada segura na região inimiga em rodadas de ataque."   
+        }
+    },
+    {
+        "title": "YORU",
+        "image": "./assets/img/yoru_persona.png",
+        "summary":{
+            "matches": 57,
+            "victories": 20,
+            "defeats": 22,
+            "headshots": 715,
+            "winrate": 55.7,
+            "slaughter": 310,
+            "deaths": 200,
+            "assists": 320,
+            "kills": 118,
+            "kda": 52.9
+        },
+        "skills":{
+            "skill_1": "./assets/icons/yoru_skill_1.png",
+            "skill_2": "./assets/icons/yoru_skill_2.png",
+            "skill_3": "./assets/icons/yoru_skill_3.png",
+            "skill_4": "./assets/icons/yoru_skill_4.png",
+            "history": "Yoru, nativo do Japão, abre fendas na realidade para infiltrar as linhas inimigas sem ser visto. Ele usa tanto artimanhas quanto táticas agressivas, e os alvos são abatidos sem saber de onde o ataque veio.",
             "quality": "DUELISTA",
             "description": "Duelistas são abatedores independentes que estão sempre prontos para o confronto. Eles usam habilidades e perícia para conseguir vários abates."   
         }
