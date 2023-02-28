@@ -1,10 +1,14 @@
 <script setup>
-// import Valorant from './components/teste.vue';
-// <!-- <Valorant mortes="216" /> -->
-import Header from "./components/Header.vue";
 import Persona from "./components/Persona.vue";
 import Choice from "./components/Choice.vue";
 import jsonPersonas from "./mock/personas.json";
+import { ref } from 'vue'
+
+
+let filteredPersonas = ref(jsonPersonas)
+let resultPersonas = filteredPersonas.value.filter((item) => item.title || item.address) 
+console.log(resultPersonas);
+
 </script>
 
 <template>
