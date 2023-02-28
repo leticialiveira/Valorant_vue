@@ -1,6 +1,25 @@
 <script setup>
     defineProps({
-        persona:Object
+        persona:Object,
+        title:String,
+        image:String,
+        matches:String,
+        victories: String,
+        defeats:String,
+        headshots:String,
+        winrate:String,
+        slaughter:String,
+        deaths:String,
+        assists:String,
+        kills:String,
+        kda:String,
+        skill_1:String,
+        skill_2:String,
+        skill_3:String,
+        skill_4:String,
+        history:String,
+        quality:String,
+        description:String
     })
     
 </script>

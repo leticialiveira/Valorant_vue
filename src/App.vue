@@ -1,25 +1,42 @@
 <script setup>
 // import Valorant from './components/teste.vue';
 // <!-- <Valorant mortes="216" /> -->
-import Header from './components/Header.vue'
-import Persona from './components/Persona.vue'
-import Choice from './components/Choice.vue'
-      fetch("../mock/personas.json")
-        .then((response) => response.json())
-        .then((json) => {
-            persona:Object
-        })
-        // }
+import Header from "./components/Header.vue";
+import Persona from "./components/Persona.vue";
+import Choice from "./components/Choice.vue";
+import jsonPersonas from "./mock/personas.json";
 </script>
 
 <template>
   <div class="body">
     <div class="main">
-      <Header/>
-      <Persona Object/>
-      <Choice/>
+      <Header />
+      <Persona
+        v-for="item in jsonPersonas"
+        :key="item.title"
+        :title="item.title"
+        :image="item.image"
+        :matches="item.matches"
+        :victories="item.victories"
+        :defeats="item.defeats"
+        :headshots="item.headshots"
+        :winrate="item.winrate"
+        :slaughter="item.slaughter"
+        :deaths="item.deaths"
+        :assists="item.assists"
+        :kills="item.kills"
+        :kda="item.kda"
+        :skill_1="item.skill_1"
+        :skill_2="item.skill_2"
+        :skill_3="item.skill_3"
+        :skill_4="item.skill_4"
+        :history="item.history"
+        :quality="item.quality"
+        :description="item.description"
+      />
+      <Choice />
+    </div>
   </div>
-</div>
 </template>
 
 <style scoped>
